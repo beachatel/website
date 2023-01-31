@@ -1,12 +1,9 @@
-header {
-    background-color: black;
-    text-align: left;
-    font-size: 350%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    color: rgb(255, 255, 255);
-    
+*{
+    padding: 0;
+    margin: 0;
 }
+
+
 
 html {
     background-color: rgb(255, 255, 255);
@@ -15,12 +12,115 @@ html {
 
 body {
     color: rgb(0, 0, 0);
-    font-size: 45px;
+    font-size: 25px;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-footer {
-    text-align: left;
-    font-size: 20px;
+
+
+li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif
+    font-size large;
+    text-align: center;
+    color: #000000;
+    size: 2cm;
+    
 }
+
+a:link {
+    margin-left:  18px;
+    margin-right: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+
+
+
+
+
+.container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.photo-gallery{
+    display: flex;
+    gap: 5px
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border: 5px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+
+
+
+#logo {
+    height: 64px;
+    position: absolute;
+    left: 20px;
+  }
+  
+
+
+
+
+  header {
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    font-size: 200%;
+    top:  0;
+    left: 0;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+  }
+  
+nav {
+    float: right;
+    margin-right: 77px;
+}
+
+
+
+
+  
+  .img{
+    position: fixed;
+    left: 0; 
+
+    
+    margin-left: 77px;
+  }
+  
